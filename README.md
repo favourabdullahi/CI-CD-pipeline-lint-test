@@ -1,7 +1,7 @@
-SET UP GITHUB ACTIONS CI/CD PIPELINE (LINT + TEST)
+SET UP GitHub ACTIONS CI/CD PIPELINE (LINT + TEST)
 
-Purpose: CI/CD Pipeline with github Actions for a forex landing page.html.
-This project demonstrates a basic DevSecOps CI/CD pipeline using GitHub Actions. The pipeline is configured to automatically lint and test a html application upon every push and pull request to the main branch. This ensures code quality and health before merging.
+Purpose: CI/CD Pipeline with github Actions for a forex landing page.HTML.
+This project demonstrates a basic DevSecOps CI/CD pipeline using GitHub Actions. The pipeline is configured to automatically lint and test a HMTL application upon every push and pull request to the main branch. This ensures code quality and health before merging.
 
 List of key learning goals.
 Example:
