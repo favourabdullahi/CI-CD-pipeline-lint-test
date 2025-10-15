@@ -33,7 +33,7 @@ Pipeline Steps: The workflow consists of a single job called build-and-test that
 3.	Run Tests: If linting passes, it executes the unit tests (e.g., npm run test) to ensure all functionality works as expected.
 Here is a simplified look at the workflow file:
 YAML
-# .github/workflows/ci.yml
+# ./GitHubworkflows/ci.yml
 name: CI Pipeline
 
 on:
@@ -70,7 +70,7 @@ Provide clear, numbered steps on how someone can set up this project in their ow
 Example:
 Setup and Configuration
 To use this CI/CD pipeline in your own project, follow these steps:
-1.	Create Workflow Directory: In your project's root, create a directory structure: .github/workflows/.
+1.	Create Workflow Directory: In your project's root, create a directory structure: .GitHub/workflows/.
 2.	Add Workflow File: Copy the contents of the superlinter.yml from this repository into a new file named superlinter.yml inside the .github/workflows/ directory.
 3.	Configure main.html: Ensure your package.json file has the necessary lint and test scripts. For example:
 4.	Add Linter and Test Configurations: Make sure you have the necessary configuration files for your linter and test runner.
